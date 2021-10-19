@@ -1,0 +1,1 @@
+# sumation-of-finite-series
