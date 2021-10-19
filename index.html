@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>সমান্তর বা গুনোত্তর ধারা </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>ধারার সমষ্টি নির্ণয়।😊</h2>
+      <div class="select__section">
+        <select id="selectId" class="select__container">
+          <option value="">ধারা নির্বাচন করুন</option>
+          <option value="arithmetic">সমান্তর ধারা</option>
+          <option value="geometric">গুনোত্তর ধারা</option>
+        </select><i class="fas fa-caret-down"></i>
+      </div>
+      <div id="first__section" class="first__section">
+        <div id="arithmetic" class="arithmetic__section">
+          <input type="text" id="arFirstTerm" name="" value="" placeholder="প্রথম পদের মান প্রবেশ করান"required>
+          <input type="text" id="arSecondTerm" name="" value="" placeholder="দ্বিতীয় পদের মান প্রবেশ করান"required >
+          <input type="text" id="arNumberOfTerm" name="" value=""  placeholder="কতটি পদের সমষ্টি নির্ণয় করতে চান?"required >
+        </div>
+      </div>
+      <div id="second__section" class="second__section">
+        <div id="geometric" class="geometric__section">
+          <input type="text" id="geFirstTerm" name="" value="" placeholder="প্রথম পদের মান প্রবেশ করান">
+          <input type="text" id="geSecondTerm" name="" value="" placeholder="দ্বিতীয় পদের মান প্রবেশ করান">
+          <input type="text" id="geNumberOfTerm" name="" value="" placeholder="কতটি পদের সমষ্টি নির্ণয় করতে চান?">
+        </div>
+      </div>
+      <button type="button" id="submitBtn" class="submit__Btn" name="button">ফলাফল দেখুন</button>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
